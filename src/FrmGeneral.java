@@ -123,7 +123,7 @@ public class FrmGeneral extends JFrame {
         setContentPane(panelParent);
 //        setContentPane(panel);
         setTitle("Game");
-        setSize(850, 800);
+        setSize(750, 600);
 //        setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }

@@ -1,7 +1,5 @@
 import javax.swing.*;
 import javax.swing.JOptionPane;
-import java.awt.*;
-import java.util.Random;
 
 public class ShowPointsProcess extends Thread {
 
@@ -25,7 +23,7 @@ public class ShowPointsProcess extends Thread {
                 pointGame.restartPoint();
             }
 
-            if (pointGame.getPoints() == 25){
+            if (pointGame.getPoints() == pointGame.getMaxPoint()){
                 JOptionPane.showMessageDialog(null, "GANASTE!!!, Click en OK para reiniciar el juego!! ");
                 pointGame.restartPoint();
             }
